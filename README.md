@@ -24,4 +24,5 @@ Building the tool is simple.
 5. Open command prompt and navigate to where you extracted the zip file.
 6. Run `pyinstaller builtinmanager.py -w --clean --onefile`
 A few folders will appear in the extracted zip file. One of these folders will be named "dist". Open this folder, and there is your built exe.
+
 `NOTE: Windows Defender may block parts of PyInstaller as well as your built exe! To fix this, simply allow these files whenever they are detected and rebuild.`
