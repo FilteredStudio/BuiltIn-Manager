@@ -17,8 +17,6 @@ def addBuiltIn(name):
         verified = "No"
     listB.insert("", "end", text=name, values=(verified))
 
-def getBuiltIns():
-    return
 
 def addBuiltIns(array):
     for name in array:
@@ -38,7 +36,7 @@ def findVersion(robloxPath):
 def refresh():
     listB.delete(*listB.get_children())
     for builtin in os.listdir(builtinPath):
-        if not ".sig" in builtin:
+        if ".sig" not in builtin:
             addBuiltIn(builtin)
 
 def itemSelected(x):
