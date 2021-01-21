@@ -1,4 +1,6 @@
 # BuiltIn-Manager
+An easy to use tool for managing installed BuiltIn plugins in your Roblox Studio installation. To get started, navigate to the [releases](https://github.com/MrSprinkleToes/BuiltIn-Manager/releases), find the latest release, and download `builtinmanager.exe`.
+Alternatively, you can build the tool yourself (or run it as a python script) by downloading the repository and following the instructions in [Building](#building).
 ## Questions
 ### What is BuiltIn Manager?
 BuiltIn Manager is an easy to use program for managing installed BuiltIn plugins in your Roblox Studio installation.
@@ -14,7 +16,7 @@ Using the tool is easy!
   Select the plugin you want to remove and press the "Remove plugin" button!
   `NOTE: This only works for plugins not provided by Roblox! Plugins provided by Roblox will say "Yes" in the "Verified" column.`
 ## Building
-`This is for anyone who wants to build the tool themself. If you'd rather jump right in, navigate to Releases and download the exe file in the latest release.`
+This is for anyone who wants to build the tool themself. If you'd rather jump right in, navigate to [Releases](https://github.com/MrSprinkleToes/BuiltIn-Manager/releases) and download the exe file in the latest release.
 
 Building the tool is simple.
 1. Install [python](https://www.python.org/). (make sure you install pip as well!)
