@@ -26,3 +26,6 @@ Building the tool is simple.
 A few folders will appear in the extracted zip file. One of these folders will be named "dist". Open this folder, and there is your built exe.
 
 `NOTE: Windows Defender may block parts of PyInstaller as well as your built exe! To fix this, simply allow these files whenever they are detected and rebuild.`
+
+## Contributing
+If you want to contribute to this project, feel free to! Make any changes you feel are best, then create a pull request. I will review the pull request and then will provide feedback. If I feel it is a good change, I will merge your pull request.
